@@ -34,11 +34,10 @@ RecipeRealm-Frontend/
 │  ├─ Premium_User_Account.html
 │  ├─ User_Profile.html
 │  └─ item_preview_page.html
-├─ styles/           # Add your *.css files (e.g., utility.css, page CSS)
-├─ scripts/          # Optional: *.js files used by pages
-└─ images/           # All images and icons referenced by pages
+├─ styles/           
+├─ scripts/         
+└─ images/         
 ```
-> If your current files are in different folders (e.g., `../images`), keep that layout or update the image paths after moving to this structure.
 
 ---
 
@@ -84,14 +83,11 @@ Double‑click any `*.html` page to preview (works for most pages).
 ---
 
 ## 🧑‍💻 Author
-Add your name(s) and IDs here.
+D G A D HIRUSHA
 
 ---
-
-## 📜 License
-MIT (or your preferred license).
 
 ---
 
 ## 📸 Quick screenshots (optional)
-Add a `/screenshots` folder and link your PNG/JPG previews here.
+![alt](https://github.com/dyneth02/RecipeRealm/blob/main/screenshots/Screenshot%202025-11-08%20001451.png)
