@@ -94,3 +94,5 @@ D G A D HIRUSHA
 ![alt](https://github.com/dyneth02/RecipeRealm/blob/main/screenshots/Screenshot%202025-11-08%20001538.png)
 ![alt](https://github.com/dyneth02/RecipeRealm/blob/main/screenshots/Screenshot%202025-11-08%20001555.png)
 ![alt](https://github.com/dyneth02/RecipeRealm/blob/main/screenshots/Screenshot%202025-11-08%20001555.png)
+![alt](https://github.com/dyneth02/RecipeRealm/blob/main/screenshots/Screenshot%202025-11-08%20004001.png)
+![alt](https://github.com/dyneth02/RecipeRealm/blob/main/screenshots/Screenshot%202025-11-08%20004001.png)
