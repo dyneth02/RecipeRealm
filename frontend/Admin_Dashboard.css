@@ -1,0 +1,140 @@
+/* side panel section starts here */
+.side_panel {
+    height: 42rem;
+    width: 15%;
+    margin-left: 4.75em;
+    background: linear-gradient(90deg, var(--clr-ivory), rgba(224, 224, 224, 0.5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#user_pic {
+    width: 80%;
+    margin-top: 1.25em;
+    border-radius: 100vw;
+}
+
+.user_name {
+    font-size: var(--size-3xl);
+    color: var(--clr-msty_blu);
+    margin-top: 0.5em;
+    letter-spacing: 5px;
+}
+
+.user_id {
+    margin-top: -0.5em;
+    font-size: var(--size-sm);
+    color: var(--clr-msty_blu);
+}
+
+.nav_block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2.5em;
+    gap: 0.75em;
+}
+
+.nav_btn {
+    background: linear-gradient(180deg, var(--clr-ivory), var(--clr-cyan));
+    color: var(--clr-msty_blu);
+    padding: 0.75em 1em;
+    font-family: "Syne Medium";
+    font-size: var(--size-2xl);
+    border-radius: 4rem;
+    transition: transform 0.45s ease;
+}
+
+.nav_btn:hover {
+    color: var(--clr-drk_blu);
+    transform: scale(1.025);
+    box-shadow: 2px 2px 30px var(--clr-tffny_blu);
+}
+/* side panel section ends here */
+
+/* body section starts here  */
+.dashboard {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    width: 1090px;
+}
+
+.top_left {
+    display: inline-block;
+    height: 18rem;
+    width: 20rem;
+    text-align: center;
+    background: rgb(255, 211, 153);
+    border-radius: 25px;
+}
+
+.top_left > h1 {
+    padding-top: 0.25em;
+}
+
+.inc {
+    margin-top: 0.1em;
+    font-size: var(--size-5xl);
+}
+
+.graph {
+    height: 10rem;
+    margin-inline: 2em;
+    margin-top: 1.2em;
+    border-radius: 25px;
+}
+
+.top_right {
+    display: inline-block;
+    margin-left: 1.5em;
+    height: 12rem;
+    width: 46rem;
+    text-align: center;
+    background: rgb(255, 211, 153);
+    border-radius: 25px;
+}
+
+.top_right > h1 {
+    position: absolute;
+    top: 8px;
+    right: 250px;
+}
+
+.bottom {
+    background: rgb(255, 211, 153);
+    padding-bottom: 0.5em;
+    border-radius: 30px;
+    margin-top: 2em;
+}
+
+.num_sec {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.num_sec > div > h1 {
+    font-size: var(--size-8xl);
+}
+
+.bottom > h1{
+    padding-top: 0.5em;
+    padding-left: 1.5em;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 3.25em;
+    margin-bottom: 1.2em;
+}
+
+.boxes > h1 {
+    font-size: var(--size-8xl);
+}
+
+.boxes > p {
+    text-align: center;
+}
