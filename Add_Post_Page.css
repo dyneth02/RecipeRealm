@@ -1,0 +1,100 @@
+/* side panel section starts here */
+.side_panel {
+    height: 42rem;
+    width: 15%;
+    margin-left: 4.75em;
+    background: linear-gradient(90deg, var(--clr-ivory), rgba(224, 224, 224, 0.5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#user_pic {
+    width: 80%;
+    margin-top: 1.25em;
+    border-radius: 100vw;
+}
+
+.user_name {
+    font-size: var(--size-3xl);
+    color: var(--clr-msty_blu);
+    margin-top: 0.5em;
+    letter-spacing: 5px;
+}
+
+.user_id {
+    margin-top: -0.5em;
+    font-size: var(--size-sm);
+    color: var(--clr-msty_blu);
+}
+
+.nav_block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3em;
+    gap: 0.75em;
+}
+
+.nav_btn {
+    background: linear-gradient(180deg, var(--clr-ivory), var(--clr-cyan));
+    color: var(--clr-msty_blu);
+    padding: 1.25em 1em;
+    font-family: "Syne Medium";
+    font-size: var(--size-2xl);
+    border-radius: 4rem;
+    transition: transform 0.45s ease;
+}
+
+.nav_btn:hover {
+    color: var(--clr-drk_blu);
+    transform: scale(1.025);
+    box-shadow: 2px 2px 30px var(--clr-tffny_blu);
+}
+/* side panel section ends here */
+
+/* posting section starts here */
+.title_section {
+    position: absolute;
+    top: 120px;
+    left: 340px;
+}
+
+#p_title {
+    height: 50px;
+    width: 800px;
+    border: none;
+    box-shadow: 0 5px 20px rgba(224, 224, 224, 0.5);
+    border-radius: 10px;
+}
+
+.body_section {
+    position: absolute;
+    top: 280px;
+    left: 340px;
+}
+
+#p_body {
+    border: none;
+    box-shadow: 0 5px 20px rgba(224, 224, 224, 0.5);
+    border-radius: 10px;
+}
+/* posting section ends here */
+
+/* action section starts here */
+.action_panel {
+    width: 18%;
+    position: absolute;
+    top: 5.7em;
+    right: 4.75em;
+    display: flex;
+    background: linear-gradient(270deg, var(--clr-ivory), rgba(224, 224, 224, 0.5));
+}
+
+.num {
+    margin-top: 0.67em;
+    font-size: var(--size-9xl);
+}
+
+/* action section ends here */
