@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Realm</title>
+    <link rel="stylesheet" href="Add_Recipe.css">
+    <link rel="stylesheet" href="../utility.css">
+</head>
+<body>
+    <div class="circle"></div>
+    <!-- header section starts here -->
+    <header class="header">
+        <div class="main container">
+            <div class="logo_section container">
+                <img src="../images/RRLogo.png" alt="Recipe Realm Logo" id="logo"  class="header_img">
+            </div>
+            <div class="nav_section container">
+                <ul class="nav_bar">
+                    <li><a href="#" class="itm itm-1">Home</a></li>
+                    <li><a href="#" class="itm itm-2">Recipes</a></li>
+                    <li><a href="#" class="itm itm-3">Blog</a></li>
+                    <li><a href="#" class="itm itm-4">About</a></li>
+                    <li><a href="#" class="itm itm-5">Contact us</a></li>
+                    <li class="itm itm-6">
+                        <img src="../images/Avatar.png" alt="avatar" id="avatar" class="header_img">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header section ends here  -->
+
+    <!-- side panel section starts here -->
+    <div class="side_panel">
+        <img src="../images/Person 1.jpg" alt="" id="user_pic">
+        <p class="user_name">SARA</p>
+        <p class="user_id">@saralock</p>
+        <div class="nav_block">
+            <button class="nav_btn">Create</button>
+            <button class="nav_btn">Commiunity</button>
+            <button class="nav_btn">My Recipes</button>
+        </div>
+    </div>
+    <!-- side panel section ends here -->
+
+    <!-- posting section starts here -->
+    <div class="title_section">
+        <h1 class="title">Recipe Title</h1>
+        <input type="text" name="title" id="p_title" placeholder="Title">
+    </div>
+    <div class="body_section">
+        <h1 class="body">Recipe Body</h1>
+        <textarea name="body" id="p_body" cols="99" rows="11" placeholder="Content"></textarea>
+    </div>
+    <!-- posting section ends here -->
+
+    <!-- category section starts here -->
+    <div class="cat_section">
+        <h1 class="select_txt">Select Category Tags</h1>
+        <div class="grps">
+            <ul class="grp group-1">
+                <div><input type="radio" name="category1" class="filter">Breakfast</div>
+                <div><input type="radio" name="category1" class="filter">Lunch</div>
+                <div><input type="radio" name="category1" class="filter">Dinner</div>
+                <div><input type="radio" name="category2" class="filter">Vegan</div>
+            </ul>
+            <ul class="grp group-2">
+                <div><input type="radio" name="category2" class="filter">Meaty</div>
+                <div><input type="radio" name="category2" class="filter">Snacks</div>    
+                <div><input type="radio" name="category2" class="filter">Spicy</div>
+                <div><input type="radio" name="category3" class="filter">Drinks</div>
+            </ul>
+            <ul class="grp group-3">
+                <div><input type="radio" name="category2" class="filter">Sweet</div>
+                <div><input type="radio" name="category2" class="filter">Salty</div>
+                <div><input type="radio" name="category2" class="filter">Creamy</div>
+               <div><input type="radio" name="category4" class="filter">South Asian
+               </div>
+            </ul> 
+            <ul class="grp group-4">
+                <div><input type="radio" name="category4" class="filter">Asian</div>
+                <div><input type="radio" name="category4" class="filter">European</div>
+                <div><input type="radio" name="category4" class="filter">American</div>
+                <div><input type="radio" name="category4" class="filter">Other</div>
+            </ul>
+        </div>
+    </div>
+    <!-- category section ends here -->
+
+    <!-- action section starts here -->
+    <div class="side_panel action_panel">
+        <h1 class="num">16</h1>
+        <p class="num_txt">Number of Recipes<br>Posted</p>
+        <div class="nav_block a_block">
+            <button class="nav_btn abtn">Upload images</button>
+            <button class="nav_btn abtn">Edit File</button>
+            <button class="nav_btn abtn">Save as a Draft</button>
+            <button class="nav_btn abtn">Post Free</button>
+            <button class="nav_btn abtn">Post Premium</button>
+        </div>
+    </div>
+    <!-- action section ends here -->
+
+    <!-- footer section starts here  -->
+    <footer class="footer">
+        <div class="ft_container">
+            <div class="ft_box sm_img_box container">
+                <img src="../images/facebook-svgrepo-com.svg" alt="" class="sm_img">
+                <img src="../images/instagram-svgrepo-com.svg" alt="" class="sm_img">
+                <img src="../images/pinterest-svgrepo-com.svg" alt="" class="sm_img">
+                <img src="../images/vimeo-svgrepo-com.svg" alt="" class="sm_img">
+                <img src="../images/twitter-svgrepo-com.svg" alt="" class="sm_img">
+                <img src="../images/youtube-svgrepo-com.svg" alt="" class="sm_img">
+            </div>
+            <div class="ft_box contact_box container">
+                <h1 class="contact_title">STAY CONNECTED</h1>
+                <p class="contact_para">Join over 10,000+ recipes which will make your appetite feel a lot better..!</p>
+            </div>
+            <div class="ft_box input_box container">
+                <input type="text" name="input" id="contact_input" placeholder="Email Address">
+                <button class="send_btn" type="submit">Join</button>
+            </div>
+            <div class="ft_box nav_section container">
+                <ul class="nav_items">
+                    <a href="#"><li class="nav_item nav_item_1">Home</li></a>
+                    <a href="#"><li class="nav_item nav_item_2">Recipes</li></a>
+                    <a href="#"><li class="nav_item nav_item_3">Blog</li></a>
+                    <a href="#"><li class="nav_item nav_item_4">About us</li></a>
+                    <a href="#"><li class="nav_item nav_item_5">Contact us</li></a>
+                    <a href="#"><li class="nav_item nav_item_6">Terms & Conditions</li></a>
+                    <a href="#"><li class="nav_item nav_item_7">FAQ</li></a>
+
+                </ul>
+            </div>
+        <div>
+        <div class="ft_box cmpy_name container">
+            <p>RECIPE REALM</p>
+        </div>
+        <div class="ft_box cpy_rght container">
+            <p>@Copyright 2024</p>
+            <p>All rights reserved. Designed & Created by <span>Dineth Hirusha</span></p>
+        </div>
+    </footer>
+    <!-- footer section ends here  -->
+</body>
+<script src="Add_Post_Page.js"></script>
+</html>
