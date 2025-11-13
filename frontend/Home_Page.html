@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Realm</title>
+    <link rel="stylesheet" href="Home_Page.css">
+    <link rel="stylesheet" href="../utility.css">
+</head>
+<body>
+    <div class="circle" id="circle"></div>
+
+    <!-- header section starts here -->
+    <header class="header">
+        <div class="main container">
+            <div class="logo_section container">
+                <img src="../images/RRLogo.png" alt="Recipe Realm Logo" id="logo"  class="header_img">
+            </div>
+            <div class="nav_section container">
+                <ul class="nav_bar">
+                    <li><a href="#" class="itm itm-1">Home</a></li>
+                    <li><a href="#" class="itm itm-2">Recipes</a></li>
+                    <li><a href="#" class="itm itm-3">Blog</a></li>
+                    <li><a href="#" class="itm itm-4">About</a></li>
+                    <li><a href="#" class="itm itm-5">Contact us</a></li>
+                    <li class="itm itm-6">
+                        <img src="../images/Avatar.png" alt="avatar" id="avatar" class="header_img">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header section ends here  -->
+
+    <!-- hero section starts here  -->
+    <section class="section-1 container">
+        <div class="text_box container">
+            <h3 class="upper_text">Chef's Special</h3>
+            <h1 class="main_text">Freshness<br>in every Bite</h1>
+            <p class="hero_para">Indulge in a world of culinary exploration through our vast array of global recipes. From savory to sweet, discover, create, and share delightful dishes with ease on our intuitive user-friendly recipe selling platform...</p>
+            <input type="search" name="search" id="search" placeholder="... Search your flavours">
+            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" id="search_icn">
+            <path d="M11 6C13.7614 6 16 8.23858 16 11M16.6588 16.6549L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="#e56997" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div class="img_box container">
+            <img src="../images/HeroImg3.png" id="img_box">
+        </div>
+    </section>
+    <div class="select_list container">
+        <ul class="selectors container">
+            <li><img src="../images/HeroImg1.png" alt="burger" class="hero_imgs" onclick="imgSwap('../images/HeroImg1.png') ; changeColor('#ffea8d')"></li>
+            <li><img src="../images/HeroImg2.png" alt="juice" class="hero_imgs" onclick="imgSwap('../images/HeroImg2.png') ; changeColor('#fac188')"></li>
+            <li><img src="../images/HeroImg3.png" alt="pizza" class="hero_imgs" onclick="imgSwap('../images/HeroImg3.png') ; changeColor('#ffaebc')"></li>
+        </ul>
+    </div>
+    <!-- hero section ends here  -->
+
+    <!-- categories section starts here  -->
+    <section class="section-2 container">
+        <h1 class="cat_txt container">Categories</h1>
+        <div class="cat_list container">
+            <div class="cat_content_box">
+                <img src="../images/cat_breakfast.svg" alt="Breakfast" class="cat_img">
+                <p class="cat_card">Breakfast</p>
+            </div>
+            <div class="cat_content_box">
+                <img src="../images/cat_lunch.svg" alt="Lunch" class="cat_img">
+                <p class="cat_card">Lunch</p>
+            </div>
+            <div class="cat_content_box">
+                <img src="../images/cat_dinner.svg" alt="Dinner" class="cat_img">
+                <p class="cat_card">Dinner</p>
+            </div>
+            <div class="cat_content_box">
+                <img src="../images/cat_vegan.svg" alt="Vegan" class="cat_img">
+                <p class="cat_card">Vegan</p>
+            </div>
+            <div class="cat_content_box">
+                <img src="../images/cat_meaty.svg" alt="Meaty" class="cat_img">
+                <p class="cat_card">Meaty</p>
+            </div>
+            <div class="cat_content_box">
+                <img src="../images/cat_snack.svg" alt="Snack" class="cat_img">
+                <p class="cat_card">Snack</p>
+            </div>
+            <div class="cat_content_box">
+                <img src="../images/cat_drink.svg" alt="Drinks" class="cat_img">
+                <p class="cat_card">Drinks</p>
+            </div>
+        </div>
+    </section>
+    <!-- categories section ends here  -->
+
+    <!-- trendings section tarts here  -->
+    <section class="section-3 container">
+        <h1 class="trnd_txt container"><button class="btn" id="vall">View More</button>Trending Hot Picks</h1>
+        <div class="recipe_box container">
+            <div class="rbox1">
+                <div class="recipe_content_box">
+                    <h1 class="recipe_title">Thai Butter Chicken Curry</h1>
+                    <p class="recipe_txt"></p>
+                    <button class="rbtn btn">View</button>
+                    <img src="../images/Trending 1.png" alt="" class="dish_img di_1">
+                    <img src="../images/save.svg" alt="" class="save_icn">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star1">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star2">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star3">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star4">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star5">
+                </div>
+            </div>
+            <div class="rbox2">
+                <div class="recipe_content_box">
+                    <h1 class="recipe_title">Salmon Sushi Chops</h1>
+                    <p class="recipe_txt"></p>
+                    <button class="rbtn btn">View</button>
+                    <img src="../images/Trending 3.png" alt="" class="dish_img di_2">
+                    <img src="../images/save.svg" alt="" class="save_icn">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star1">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star2">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star3">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star4">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star5">
+                </div>
+            </div>
+            <div class="rbox3">
+                <div class="recipe_content_box">
+                    <h1 class="recipe_title">Italian Cheese Pizza</h1>
+                    <p class="recipe_txt"></p>
+                    <button class="rbtn btn">View</button>
+                    <img src="../images/HeroImg3.png" alt="" class="dish_img di_3">
+                    <img src="../images/save.svg" alt="" class="save_icn">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star1">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star2">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star3">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star4">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star5">
+                </div>
+            </div>
+            <div class="rbox4">
+                <div class="recipe_content_box">
+                    <h1 class="recipe_title">Cuttle Fish Pasta</h1>
+                    <p class="recipe_txt"></p>
+                    <button class="rbtn btn">View</button>
+                    <img src="../images/Trending 4.png" alt="" class="dish_img di_4">
+                    <img src="../images/save.svg" alt="" class="save_icn">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star1">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star2">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star3">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star4">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star5">
+                </div>
+            </div>
+            <div class="rbox5">
+                <div class="recipe_content_box">
+                    <h1 class="recipe_title">High Protein Salad</h1>
+                    <p class="recipe_txt"></p>
+                    <button class="rbtn btn">View</button>
+                    <img src="../images/Trending 5.png" alt="" class="dish_img di_5">
+                    <img src="../images/save.svg" alt="" class="save_icn">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star1">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star2">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star3">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star4">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star5">
+                </div>
+            </div>
+            <div class="rbox6">
+                <div class="recipe_content_box">
+                    <h1 class="recipe_title">Japaneese Prawn Tofu</h1>
+                    <p class="recipe_txt"></p>
+                    <button class="rbtn btn">View</button>
+                    <img src="../images/Trending 6.png" alt="" class="dish_img di_6">
+                    <img src="../images/save.svg" alt="" class="save_icn">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star1">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star2">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star3">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star4">
+                    <img src="../images/star-svgrepo-com.svg" alt="" class="star star5">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- trendings section ends here -->
+
+    <!-- about gallery section starts here  -->
+    <section class="section-4 container">
+        <h1 class="trnd_txt container">About Our Recipes</h1>
+        <div class="abt_box container">
+            <div class="abt_content abt_img_box ai1">
+                <img src="../images/wrytb.jpg" alt="" class="abt_img">
+            </div>
+            <div class="abt_content abt_txt_box at1">
+                <h1 class="abt_txt rgt_txt">We Respect your <br><span>Taste Buds</span></h1>
+            </div>
+            <div class="abt_content abt_txt_box at2">
+                <h1 class="abt_txt lft_txt">We Provide <br> Balanced Meals</h1>
+            </div>
+            <div class="abt_content abt_img_box ai2">
+                <img src="../images/wpybm.jpg" alt="" class="abt_img">
+            </div>
+            <div class="abt_content abt_img_box ai3">
+                <img src="../images/wmylh.jpg" alt="" class="abt_img">
+            </div>
+            <div class="abt_content abt_txt_box at3">
+                <h1 class="abt_txt rgt_txt">We Make <br> your Life Healthy </h1>
+            </div>
+            <div class="abt_content abt_txt_box at4">
+                <h1 class="abt_txt lft_txt">We Ease up <br> your Busy Days</h1>
+            </div>
+            <div class="abt_content abt_img_box at4">
+                <img src="../images/weuybd.jpg" alt="" class="abt_img">
+            </div>
+        </div>
+    </section>
+    <!-- about gallery section ends here  -->
+
+    <!-- carousel section starts here -->
+    <section class="section-5 container">
+        <div class="logos">
+            <div class="logo_slide">
+                <img src="../images/logo (1).svg" alt="">
+                <img src="../images/logo (2).svg" alt="">
+                <img src="../images/logo (3).svg" alt="">
+                <img src="../images/logo (4).svg" alt="">
+                <img src="../images/logo (5).svg" alt="">
+                <img src="../images/logo (6).svg" alt="">
+                <img src="../images/logo (7).svg" alt="">
+                <img src="../images/logo (8).svg" alt="">
+            </div>
+            <div class="logo_slide">
+                <img src="../images/logo (1).svg" alt="">
+                <img src="../images/logo (2).svg" alt="">
+                <img src="../images/logo (3).svg" alt="">
+                <img src="../images/logo (4).svg" alt="">
+                <img src="../images/logo (5).svg" alt="">
+                <img src="../images/logo (6).svg" alt="">
+                <img src="../images/logo (7).svg" alt="">
+                <img src="../images/logo (8).svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- carousel section ends here -->
+
+    <!-- reviews section starts here -->
+    <section class="section-6 container">
+        <h1 class="trnd_txt container"><button class="btn" id="vall">View More</button>Reviews from Our Clients</h1>
+        <div class="review_card_container container">
+            <div class="review_card">
+                <img src="../images/Person 1.jpg" alt="" class="client_image">
+                <h1 class="client_name">Sara Lockhart</h1>
+                <p class="review_body">"This creamy pasta dish has a perfect balance of flavours!!.. The garlic added is just the right amount of kick, making it an irresistable dinner option."</p>
+            </div>
+            <div class="review_card">
+                <img src="../images/Person 2.jpg" alt="" class="client_image">
+                <h1 class="client_name">Joseph Seed</h1>
+                <p class="review_body">"The lemon chicken is tender and bursting with citrusy goodness. Each bite is juicy and flavourful, making it an standout dish for any occasion."</p>
+            </div>
+            <div class="review_card">
+                <img src="../images/Person 3.jpg" alt="" class="client_image">
+                <h1 class="client_name">Amilia Tenpenny</h1>
+                <p class="review_body">"These chocolate cookies are a real delight! Soft, Chewy, and loaded with gooey chocolate chuncks. A must-try recipe for a cookie lovers..!"</p>
+            </div>
+        </div>
+    </section>
+    <!-- reviews section ends here -->
+
+    <!-- footer section starts here  -->
+    <footer class="footer">
+        <div class="ft_container">
+            <div class="ft_box sm_img_box container">
+                <img src="../images/facebook-svgrepo-com.svg" alt="" class="sm_img">
+                <img src="../images/instagram-svgrepo-com.svg" alt="" class="sm_img">
+                <img src="../images/pinterest-svgrepo-com.svg" alt="" class="sm_img">
+                <img src="../images/vimeo-svgrepo-com.svg" alt="" class="sm_img">
+                <img src="../images/twitter-svgrepo-com.svg" alt="" class="sm_img">
+                <img src="../images/youtube-svgrepo-com.svg" alt="" class="sm_img">
+            </div>
+            <div class="ft_box contact_box container">
+                <h1 class="contact_title">STAY CONNECTED</h1>
+                <p class="contact_para">Join over 10,000+ recipes which will make your appetite feel a lot better..!</p>
+            </div>
+            <div class="ft_box input_box container">
+                <input type="text" name="input" id="contact_input" placeholder="Email Address">
+                <button class="send_btn" type="submit">Join</button>
+            </div>
+            <div class="ft_box nav_section container">
+                <ul class="nav_items">
+                    <a href="#"><li class="nav_item nav_item_1">Home</li></a>
+                    <a href="#"><li class="nav_item nav_item_2">Recipes</li></a>
+                    <a href="#"><li class="nav_item nav_item_3">Blog</li></a>
+                    <a href="#"><li class="nav_item nav_item_4">About us</li></a>
+                    <a href="#"><li class="nav_item nav_item_5">Contact us</li></a>
+                    <a href="#"><li class="nav_item nav_item_6">Terms & Conditions</li></a>
+                    <a href="#"><li class="nav_item nav_item_7">FAQ</li></a>
+
+                </ul>
+            </div>
+        <div>
+        <div class="ft_box cmpy_name container">
+            <p>RECIPE REALM</p>
+        </div>
+        <div class="ft_box cpy_rght container">
+            <p>@Copyright 2024</p>
+            <p>All rights reserved. Designed & Created by <span>Dineth Hirusha</span></p>
+        </div>
+    </footer>
+    <!-- footer section ends here  -->
+    <script src="Home_Page.js"></script>
+</body>
+</html>
