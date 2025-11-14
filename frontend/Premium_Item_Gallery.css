@@ -1,0 +1,327 @@
+.main_container {
+    display: flex;
+    position: relative;
+}
+
+
+/* side panel section starts here */
+.side_panel {
+    height: 42rem;
+    width: 15%;
+    margin-left: 4.75em;
+    background: linear-gradient(90deg, var(--clr-ivory), rgba(224, 224, 224, 0.5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.side_txt {
+    position: absolute;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    top: 125px;
+    left: -30px;
+    transition: transform 0.45s ease;
+    color: var(--clr-msty_blu);
+}
+
+.side_txt:hover {
+    transform: scale(1.12);
+    cursor: pointer;
+}
+
+.txt2 {
+    top: 465px;
+}
+
+.cat_block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1.5em;
+    gap: 0.25em;
+    position: relative;
+}
+
+.cat_btn {
+    background: linear-gradient(0deg, var(--clr-tffny_blu), var(--clr-ivory));
+    color: var(--clr-msty_blu);
+    padding: 0.75em 1em;
+    font-family: "Syne Medium";
+    font-size: var(--size-base);
+    border-radius: 4rem;
+    transition: transform 0.45s ease;
+}
+
+.cat_btn:hover {
+    color: var(--clr-drk_blu);
+    transform: scale(1.1);
+    box-shadow: 0px 2px 50px var(--clr-tffny_blu);
+}
+
+#premium {
+    background: linear-gradient(180deg, var(--clr-ivory),var(--clr-champaign));
+    color: var(--clr-drk_blu);
+}
+
+#premium:hover {
+    transform: scale(1.1);
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.bars {
+    position: absolute;
+    height: 5px;
+    width: 60px;
+    background-color: var(--clr-msty_blu);
+}
+
+.bar1 {
+    rotate: 90deg;
+    top: 40px;
+    left: -100px;     
+}
+
+.bar2 {
+    rotate: 90deg;
+    top: 320px;
+    left: -100px;     
+}
+
+.bar3 {
+    width: 30px;
+    rotate: 90deg;
+    top: 20px;
+    left: -91px;     
+}
+
+.bar4 {
+    width: 30px;
+    rotate: 90deg;
+    bottom: 16px;
+    left: -91px;     
+}
+/* side panel section ends here */
+
+/* gallery section starts here */
+.content_section {
+    flex: 2;
+    position: relative;
+}
+
+#search {
+    width: 45%;
+    margin-top: 2em;
+    margin-left: 4.2em;
+    margin-right: 8.5em;
+    padding: 0.55rem;
+    padding-left: 1.7em;
+    border-radius: 2em;
+    border: none;
+    outline: none;
+}
+
+#search::placeholder {
+    font-family: 'Syne Medium';
+    font-size: var(--size-sm);
+}
+
+#search:focus {
+    box-shadow: 1px 1px 1500px var(--clr-rose), 
+               -1px -1px 1000px #fff;
+}
+
+#search_icn {
+    width: 20px;
+    position: absolute;
+    left: 35.2em;
+    top: -22.2em;
+    color: #fff;
+    transition: transform 0.5s ease;
+}
+
+#search_icn:hover {
+    transform: scale(1.12);
+    cursor: pointer;
+}
+
+.filter_row {
+    margin-top: 1.25em;
+    margin-left: 3.45em;
+    position: relative;
+    z-index: 10;
+}
+
+#premium {
+    position: absolute;
+    right: 5.5em;
+}
+
+.gallery_grid {
+    display: grid;
+    width: 93.5%;
+    grid-template-columns: 22rem 22rem 22rem;
+    grid-template-rows: 10rem 10rem;
+    row-gap: 3.75em;
+    margin-top: 1.5em;
+    margin-left: 2.5em;
+}
+
+.rbox1 {
+    grid-area: 1 / 1 / 2 / 2;
+    position: relative;
+}
+
+.rbox2 {
+    grid-area: 1 / 2 / 2 / 3;
+    position: relative;
+}
+
+.rbox3 {
+    grid-area: 1 / 3 / 2 / 4;
+    position: relative;
+}
+
+.rbox4 {
+    grid-area: 2 / 1 / 3 / 2;
+    position: relative;
+}
+
+.rbox5 {
+    grid-area: 2 / 2 / 3 / 3;
+    position: relative;
+}
+
+.rbox6 {
+    grid-area: 2 / 3 / 3 / 4;
+    position: relative;
+}
+
+.recipe_content_box {
+    height: 10rem;
+    width: 16rem;
+    background: linear-gradient(180deg, var(--clr-ivory), var(--clr-cyan));
+    border-radius: 2em;
+    position: absolute;
+    right: 10px;
+    top: 52px;
+    transition: transform 0.45s ease-out;
+}
+
+.recipe_content_box:hover {
+    transform: scale(1.015);
+    cursor: pointer;
+}
+
+.recipe_content_box:hover .dish_img {
+    transform: scale(1.075);
+}
+
+.recipe_content_box:hover .recipe_title {
+    transform: scale(1.075);
+}
+
+.recipe_content_box:hover .star {
+    transform: scale(1.075);
+}
+
+.rbtn {
+    box-shadow: 0px 5px 60px rgb(204, 138, 213);
+    top: 25px;
+}
+
+.rbtn:hover {
+    transform: scale(1.1);
+}
+
+.dish_img {
+    width: 140px;
+    position: absolute;
+    top: -45px;
+    left: -40px;
+    transition: transform 0.45s ease;
+}
+
+.di_2 {
+    top: -70px;
+}
+
+.di_5 {
+    width: 140px;
+    top: -35px;
+}
+
+.di_6 {
+    width: 155px;
+    top: -55px;
+    left: -40px;
+}
+
+.save_icn {
+    position: absolute;
+    width: 40px;
+    right: 100px;
+    top: 8px;
+    transition: transform 0.75s ease;
+}
+
+.save_icn:hover {
+    transform: scale(1.15);
+}
+
+.star {
+    position: absolute;
+    width: 20px;
+    top: 60px;
+    transition: transform 0.45s ease;
+}
+
+.star1 {
+    right: 145px;
+}
+
+.star2 {
+    right: 115px;
+}
+
+.star3 {
+    right: 85px;
+}
+
+.star4 {
+    right: 55px;
+}
+
+.star5 {
+    right: 25px;
+}
+
+.recipe_title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Syne Medium';
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    font-size: var(--size-xl);
+    color: var(--clr-msty_blu);
+    transition: transform 0.45s ease;
+}
+/* gallery section ends here */
+
+/* action section starts here */
+.page_section {
+    display: flex;
+    width: 28%;
+    gap: 1.2em;
+    position: absolute;
+    left: 43rem;
+    bottom: 2.45rem;
+}
+
+/* action section ends here */
